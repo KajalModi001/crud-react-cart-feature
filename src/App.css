@@ -1,0 +1,300 @@
+.registerheading
+{
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+}
+.registermaindiv
+{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.registerform
+{
+  width: 30vw;
+  border-style: groove;
+  box-shadow: inset 0px 0px 8px black;
+  border-color: violet;
+  padding: 2%;
+}
+
+.loginheading
+{
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+}
+.loginmaindiv
+{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.loginform
+{
+  width: 30vw;
+  border-style: groove;
+  box-shadow: inset 0px 0px 8px black;
+  border-color: violet;
+  padding: 2%;
+}
+
+
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.divcontainer
+{
+  display: flex;
+  margin: 0 auto;
+  /* background-color: aqua; */
+}
+.partcontainer
+{
+  display: flex;
+  width: 50%;
+  padding-left: 3%;
+  /* background-color: brown; */
+}
+.titlediv
+{
+  padding-top: 1%;
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.mainimage
+{
+    width: 25rem;
+    height: 20rem;
+    border: 0.1rem solid;
+    border-color: #F0F0F0;
+    cursor: pointer;
+
+}
+.detailimagediv
+{
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  flex-direction: column;
+  padding-left: 4%;
+  padding-top: 4%;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.detailimage
+{
+    width: 10rem;
+    height: 8rem;
+    border: 0.1rem solid;
+    border-color: #F0F0F0;
+    padding-left: 1%;
+}
+
+.secondcontainer
+{
+  padding-top: 5.9%;
+  padding-left: 1%;
+  display: flex;
+  width: 50%;
+  /* background-color: khaki; */
+}
+/* .description
+{
+  display: flex;
+  flex-direction: column;
+} */
+.descriptiontitle
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.descriptiondetail
+{
+  text-align: justify;
+  padding-right: 10%;
+ 
+} 
+.total
+{
+  padding-top: 1%;
+}
+.addtocart
+{
+  padding-top: 3%;
+  
+}
+.totalbox
+{
+  padding-left: 5%;
+}
+.buttonaddtocart
+{
+  background-color: #FF9F00 !important;
+}
+.amount
+{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.imageofindex
+{
+  height: 100%;
+  width: 95%;
+  margin-left: 2.2%;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 3%;
+}
+.productname-price
+{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.buttonaddtocart
+{
+  margin-left: 15%;
+}
+.buttonbuy
+{
+  margin-left: 15%;
+}
+.headingproduct
+{
+  margin-left: 1%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.divcontainer
+{
+  display: flex;
+  margin: 0 auto;
+  /* background-color: aqua; */
+}
+.partcontainer
+{
+  display: flex;
+  width: 50%;
+  padding-left: 3%;
+  /* background-color: brown; */
+}
+.titlediv
+{
+  padding-top: 1%;
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  display: flex;
+  flex-direction: column;
+}
+.mainimage
+{
+    width: 30rem;
+    border: 0.1rem solid;
+    border-color: #F0F0F0;
+    cursor: pointer;
+
+}
+.detailimagediv
+{
+  display: flex;
+  margin: 0 auto;
+  width: 40%;
+  flex-direction: column;
+  padding-left: 3%;
+  padding-top: 4%;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.detailimage
+{
+    width: 7rem;
+    height: 5rem;
+    border: 0.1rem solid;
+    border-color: #F0F0F0;
+    padding-left: 1%;
+}
+
+.secondcontainer
+{
+  padding-top: 5.9%;
+  padding-left: 1%;
+  display: flex;
+  width: 50%;
+  /* background-color: khaki; */
+}
+
+.descriptiontitle
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+}
+.descriptiondetail
+{
+  text-align: justify;
+  padding-right: 10%;
+ 
+} 
+.total
+{
+  padding-top: 1%;
+}
+.addtocart
+{
+  padding-top: 0.1%;
+  padding-left: 42%;
+  
+}
+.totalbox
+{
+  padding-left: 5%;
+}
+.buttonaddtocart
+{
+  background-color: #FF9F00 !important;
+}
+.amount
+{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.msgoflimit
+{
+  color: red;
+  font-size: 1.5rem;
+
+}
+
+.username
+{
+  margin-left: 15%;
+  font-size: 1.5rem;
+}
+.carticonheader
+{
+  color: black;
+  margin-right: 2%;
+  font-size: 1.5rem;
+  
+}
+.removebutton
+{
+  margin-left: 3%;
+}
